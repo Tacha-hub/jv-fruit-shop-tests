@@ -1,15 +1,16 @@
 package core.basesyntax.activities;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 import core.basesyntax.maps.StorageForFruitsAndQuantity;
 import core.basesyntax.transactions.FruitTransaction;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class PurchaseTest {
-    private StorageForFruitsAndQuantity  storage;
-    Purchase purchase;
+    private StorageForFruitsAndQuantity storage;
+    private Purchase purchase;
 
     @BeforeEach
     void setUp() {

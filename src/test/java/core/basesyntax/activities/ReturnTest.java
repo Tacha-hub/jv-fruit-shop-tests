@@ -1,10 +1,11 @@
 package core.basesyntax.activities;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import core.basesyntax.maps.StorageForFruitsAndQuantity;
 import core.basesyntax.transactions.FruitTransaction;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 class ReturnTest {
     private StorageForFruitsAndQuantity storage;
